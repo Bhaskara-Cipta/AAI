@@ -37,7 +37,7 @@ Mengapa ada folder "model building"? Folder tersebut memuat dua hasil pembuatan 
 ### Validation
 ![Screenshot 2024-06-18 091122](https://github.com/GufronAridho/Test1/assets/119670148/78b324a9-f44d-459f-807a-9478ac5ec598)
 
-Pada Screnenshot diatas menampilkan penilaian kami memutuskan untuk menggunakan WatsonX Assistant untuk diintegrasikan ke aplikasi mobile project massive collab ini, peniliaanya berupa berikut
+Pada Screnenshot diatas menampilkan penilaian kami memutuskan untuk menggunakan WatsonX Assistant untuk diintegrasikan ke aplikasi mobile project massive collab ini, penilaianya berupa berikut
 - Data Preperation
 - Model Building
 - Model Evaluation
