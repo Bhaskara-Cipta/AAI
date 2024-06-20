@@ -315,21 +315,24 @@ perbedaan_skala_ritcher_dan_magnitudo       1.00      1.00      1.00         9
 ```
 
 ## Prototype
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
-tarok foro
+![Chatbot Sequential Flow](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/abb57338-1b56-4543-bbd9-7a1b45b35faa)
 
 ## Integration
-Model ini belum bisa diintegrasikan ke aplikasi mobile, tetapi ML Eng kami mampu untuk mengitegrasikan model ini react js pada folder "my-chatbot", dengan kekurangan yaitu belum ditegrasikan ke website utama project collab ini dan deployment app flask nya masih dilakukan secara lokal.
+Model ini belum bisa diintegrasikan ke aplikasi mobile, tetapi ML Eng kami mampu untuk mengitegrasikan model ini react js pada folder "my-chatbot", dengan kekurangan yaitu belum ditegrasikan ke website utama project collab ini dan deployment app flask nya masih dilakukan secara lokal. 
+
+Untuk memulai web diperlukan Node Js
+
+```
+pip install requirement.txt
+cd frontend
+npm start
+```
 
 ## Deployment
-Model ini menggunakan flask CORS, exios untuk memungkinkannya berkomunikasi antara front end dan back end website. Tetapi seperti yang dibilang sebelumnya kami masih belum bisa untuk mendeploy model ini ke internet
+Implementasi chatbot ke website menggunakan flask dan react yang diintegrasikan menggunakan  axios untuk komunikasi dan concurrently untuk menjalankan kedua server secara bersamaan. Server Flask dengan Flask-CORS menangani input dari user dan mengembalikan respons chatbot melalui endpoint /chat. React mengelola state aplikasi, menangani inputan user, serta menampilkan pesan dengan penataan tata letak yang memisahkan pesan pengguna di sebelah kanan dan respons chatbot di sebelah kiri. 
+
+Tetapi seperti yang dibilang sebelumnya kami masih belum bisa untuk mendeploy model ini ke internet
 
 ## Result
-Model ini masih berada sudah melewati tahap model building, akan tetapi masih belum mampu untuk menyelesaikan tahap deployment dan integration.
-
-kasih foto
-
-## Conclusion
-
-
-
+Model ini masih berada sudah melewati tahap model building, akan tetapi masih belum mampu untuk menyelesaikan tahap deployment dan integration pada platfrom mobile dan website.
+![Screenshot 2024-06-19 211323](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/c0343e29-bc39-48a9-8a52-36ed2512c7c3)
