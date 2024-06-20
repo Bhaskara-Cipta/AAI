@@ -201,8 +201,7 @@ trainer.train()
 ```
 
 ## Prototype
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
-tarok foro
+![Chatbot Sequential Flow](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/abb57338-1b56-4543-bbd9-7a1b45b35faa)
 
 ## Integration
 Model ini tidak diintegrasikan 
