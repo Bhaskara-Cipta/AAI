@@ -102,7 +102,7 @@ Apa sih yang dimaksud dengan gempa vulkanik,gempa_vulkanik
 ### 3. Algorithm
 
 - Framework <br />
-Kami menggunanakan WatsonX Assistant. Dengan versi algoritma terbaru (15-Apr-2023) Yang mana versi algoritma menggunakan foundation model baru untuk meningkatkan deteksi niat dan pencocokan tindakan di asisten, foundation model ini dilatih dengan menggunakan arsitektur transformator.
+Kami menggunanakan WatsonX Assistant. Dengan versi algoritma terbaru (15-Apr-2023) dari setting watsonx assistant Yang mana versi algoritma ini menggunakan foundation model baru untuk meningkatkan deteksi niat dan pencocokan tindakan di asisten, foundation model ini dilatih dengan menggunakan arsitektur transformator.
 
 - Pembangunan Model
 
@@ -128,14 +128,38 @@ Kita sudah membuat Action yang akan dipakai oleh chatbot untuk menjawab pertanya
 - Model Evaluation <br />
 
 ## Prototype
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
-Kaasih foto
 
-## Integration
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
+![Watson Asisstant Flow](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/8e374138-ed78-4339-8775-dd15221cfa6b)
+
+Flowchart ini menggambarkan alur percakapan atau dialog untuk sebuah chatbot dari Watson Assistant. Proses dimulai dari "Open" atau membuka percakapan. Pengguna kemudian diminta untuk "Input Question" atau memasukkan pertanyaan. Pertanyaan pengguna ini akan diproses oleh "Watson Assistant" yang memiliki kemampuan memahami dan mengolah bahasa alami. Setelah itu, sistem akan melakukan pencarian informasi yang relevan melalui "Searching Action Skills" yang melibatkan penelusuran pada basis pengetahuan atau sumber eksternal untuk menemukan jawaban atas pertanyaan pengguna. Sistem akan menghasilkan "Question Response" atau respons jawaban berdasarkan hasil pencarian tersebut. Setelah itu, sistem akan memeriksa apakah terdapat opsi atau tindakan lanjutan yang diperlukan. Jika tidak ada opsi ("No Option"), pengguna akan ditanya "Ask Again?" untuk mengajukan pertanyaan lain. Jika pengguna memilih tidak bertanya lagi ("Close"), maka alur percakapan akan berakhir. Namun, jika terdapat opsi ("There Are Option"), sistem akan menampilkan langkah "Pick One" di mana pengguna dapat memilih dari opsi yang tersedia. Apabila pengguna memilih opsi "Tidak Penasaran", maka alur percakapan akan berakhir dengan "End Dialog Flow". Jika pengguna memilih opsi lain, sistem akan memberikan respons yang sesuai ("Pick Response"). Setelah itu, pengguna akan ditanya apakah ingin "Repeat Pick?" atau memilih opsi lain. Jika ya, maka akan kembali ke langkah "Pick One". Jika tidak, maka alur percakapan akan berakhir.
 
 ## Deployment
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
+
+Watsonx asisten adalah salah satu service yang disediakan oleh IBM Cloud untuk membuat sebuah chatbot . Di watsonx asisten kita bisa membuat, menguji, mempublish, mendeploy dan menganalisis chatbot kita dalam antarmuka yang sederhana dan interaktif, watsonx asisten membuat chatbot yang telah kita buat sudah di deploy dan bisa diakses dari mana saja dengan langkah yang simple.
+
+Setelah kita sudah selesai membuat Actions di halaman utama Watsonx asisten kita bisa melakukan pengujian pada chatbot ini melalui tab Preview, ketika dirasa sudah cukup masuk pada tab Publish untuk mempublish chatbot ini pada environment Live agar dapat di deploy dan diintegrasikan ke aplikasi mobile melalui webview.
+
+![1](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/ab74bd4b-26df-46e7-ac8b-10dc730a4338)
+
+Selanjutnya kita akan masuk pada tab integration lalu pada bagian webchat pilih environment Live, di environment Live ini kita mengatur kembali tampilan dari chatbot nya dan penyesuain lainya. Untuk mengintegrasikan chatbot ini yang sudah dideploy di Cloudnya IBM watsonx asisten adalah penggunaan script embed yang akan ada pada gambar berikut untuk menyambungkan pengguna dengan fitur chatbot ini.
+
+![2](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/ab133407-8149-445e-8cff-1744df6b41a4)
+
+## Integration
+
+Proses integrasi chatbot akan menggunakan embed code yang ada pada bagian sebelumnya, script tersebut akan dimuat pada suatu file html untuk dijadikan perantara agar Webview dapat dilakukan  untuk mengakses chatbot tersebut di aplikasi mobile dan website.
+
+Teknis dari integrasi chatbot ini ke mobile memiliki penjelasan langkah singkat sebagai berikut:
+
+1. Membuat file .html sederhana yang mengandung script dari embed code tersebut lalu upload ke dalam folder assets.
+2. Membuat file webview component untuk memungkinan aplikasi mengakses konten yang berasal dari web ini sangat berpengaruh untuk mengakses file .html yang mengandung script embed tersebut 
+![WhatsApp Image 2024-06-14 at 20 42 01](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/de3d35be-c4c7-4774-8afd-2a8097ad3258)
+
+4. Selanjutnya kita membuat javascript interface yang akan bertanggung jawab untuk menangani pengiriman pesan pengguna ke watsonx assistant  
+![WhatsApp Image 2024-06-14 at 20 35 09](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/cf870769-a7f0-474b-9ca3-24d1db97bba0)
+
+6. Dan terakhir kita membuat file .kt untuk membuat screen chatbot dan memanggil fungsi dari kedua file tersebut.
+![WhatsApp Image 2024-06-14 at 20 34 36](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/7c4f2fa5-499b-4b61-8a1e-7855230cd282)
 
 ## Result
 Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
