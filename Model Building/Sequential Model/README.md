@@ -4,7 +4,7 @@ README ini akan menjelaskan pembangunan model Sequential menggunakan framework T
 2. Buka Google Colab dan klik Open Colab
 3. Buka tab Upload lalu cari atau tarik file .ipynb ini
 
-Atau anda bisa masuk pada link Google colab berikut:
+Atau anda bisa akses notebook pada link Google colab berikut:
 
 https://colab.research.google.com/drive/1BMYwupPTa1oh0SfEXWu7alw-JmqTCBAk?usp=sharing 
    
