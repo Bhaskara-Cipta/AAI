@@ -3,6 +3,10 @@ README ini akan menjelaskan pembangunan model LLM dari HuggingFace yaitu BERT. S
 1. Download file .ipynb
 2. Buka Google Colab dan klik Open Colab
 3. Buka tab Upload lalu cari atau tarik file .ipynb ini
+
+Atau anda bisa akses notebooknya pada link Google colab berikut :
+
+https://colab.research.google.com/drive/1FlQ-xLWQuDwAwxNVcNVthmBgXHxgnA5V?usp=sharing
    
 # Lets Build
 
