@@ -1,4 +1,4 @@
-Ini adalah notebook yang memuat data analis dari dataset yang dilakukan 
+Ini adalah notebook yang memuat data analis dari dataset yang digunakan
 
 Anda bisa akses notebook pada link Google colab berikut:
 
