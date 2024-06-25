@@ -162,7 +162,23 @@ Teknis dari integrasi chatbot ini ke mobile memiliki penjelasan langkah singkat 
 ![WhatsApp Image 2024-06-14 at 20 34 36](https://github.com/Bhaskara-Cipta/AAI/assets/173335150/7c4f2fa5-499b-4b61-8a1e-7855230cd282)
 
 ## Result
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
+Kami telah mengembangkan fitur AI dalam bentuk chatbot dengan menggunakan Watsonx Assistant untuk memberikan informasi dan jawaban secara real-time mengenai gempa bumi. Chatbot AI ini didesain untuk membantu pengguna dengan pertanyaan seputar gempa, langkah-langkah keselamatan, dan pengetahuan umum tentang gempa. Dengan integrasi Watsonx Assistant, chatbot kami dapat memahami dan memproses pertanyaan dalam bahasa alami dengan efisien, memastikan pengguna mendapatkan informasi yang akurat dan tepat waktu.
+
+![WhatsApp Image 2024-06-25 at 22 19 49](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/3afffad4-bbc8-4569-8692-c7316696127b)
+
+Selain itu, chatbot ini mampu menawarkan topik yang relevan dengan pertanyaan pengguna, memberikan solusi jawaban yang komprehensif. Dengan Watsonx Assistant, kami dapat menganalisis kepuasan pengguna dan melakukan perbaikan pada chatbot tanpa perlu mengubah kode dalam aplikasi mobile. Chatbot ini dapat diakses kapan saja dan diperbarui berdasarkan analisis yang dilakukan tanpa perlu hard coding.
+   
+![WhatsApp Image 2024-06-25 at 22 19 48](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/1833b890-cd97-4625-ae18-45b4d7d0e405)
+
+
+Dari segi fungsionalitas, pengguna tidak perlu lagi beralih antara web atau aplikasi lain untuk mendapatkan informasi seputar gempa, karena chatbot ini dirancang khusus untuk memberikan informasi terkait gempa. Fitur ini tidak hanya meningkatkan pengalaman pengguna, tetapi juga memberikan dukungan penting dan fleksibilitas untuk beradaptasi dan berkembang seiring berjalannya waktu.
+   
+![WhatsApp Image 2024-06-25 at 22 19 49 (1)](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/209e37d5-287a-4e77-b7bf-0e246e9d2979)
+
 
 ## Conclusion
-Disesuaikan dengan kebutuhan atau bisa ditiru dari laporan dokumentasi massive.
+Indonesia sangat rawan gempa bumi karena berada di Cincin Api Pasifik, menyebabkan kerugian besar. Meskipun ada upaya mitigasi, banyak masyarakat kurang paham tentang tindakan yang harus diambil sebelum, saat, dan setelah gempa. Akses informasi cepat dan akurat menjadi kendala utama. 
+
+Teknologi informasi dan komunikasi dapat menjadi solusi efektif, seperti pengembangan Chatbot “Mari Bertanya” adalah solusi yang kami kembangkan dalam aplikasi Siaga Gempa. Chatbot ini bertujuan untuk memuaskan keingintahuan pengguna mengenai gempa bumi di Indonesia dengan memberikan jawaban dari pertanyaan nya yang responsif, relevan dan konsisten dari waktu ke waktu. Melalui pendekatan ini, kami berharap untuk memberdayakan individu dengan pengetahuan tentang gempa bumi, memungkinkan mereka mengambil keputusan dan mengambil tindakan proaktif untuk menjamin keselamatan dan kesejahteraan mereka.
+
+Dengan penggunaan watsonx asisten sebagai platfrom utama pembuatan, pendeployan dan analisis chatbot untuk integrasi yang bisa dilakukan di platfrom mobile maupun website. Model yang dikembangkan pada watsonx asisten mampu melakukan Natural Languange Procesing (NLP) untuk mengenali intens pengguna dari inputan pengguna, kemudian model ini akan memberikan respon berdasarkan dataset yang dibuat dan juga kelebihannya yang sudah di deploy di cloud sehingga bisa diakses kapan saja dan proses integrasi yang tidak perlu merubah banyak kode dasar dari website dan mobile
