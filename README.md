@@ -170,11 +170,9 @@ Selain itu, chatbot ini mampu menawarkan topik yang relevan dengan pertanyaan pe
    
 ![WhatsApp Image 2024-06-25 at 22 19 48](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/1833b890-cd97-4625-ae18-45b4d7d0e405)
 
-
 Dari segi fungsionalitas, pengguna tidak perlu lagi beralih antara web atau aplikasi lain untuk mendapatkan informasi seputar gempa, karena chatbot ini dirancang khusus untuk memberikan informasi terkait gempa. Fitur ini tidak hanya meningkatkan pengalaman pengguna, tetapi juga memberikan dukungan penting dan fleksibilitas untuk beradaptasi dan berkembang seiring berjalannya waktu.
    
 ![WhatsApp Image 2024-06-25 at 22 19 49 (1)](https://github.com/Bhaskara-Cipta/AAI/assets/119670148/209e37d5-287a-4e77-b7bf-0e246e9d2979)
-
 
 ## Conclusion
 Indonesia sangat rawan gempa bumi karena berada di Cincin Api Pasifik, menyebabkan kerugian besar. Meskipun ada upaya mitigasi, banyak masyarakat kurang paham tentang tindakan yang harus diambil sebelum, saat, dan setelah gempa. Akses informasi cepat dan akurat menjadi kendala utama. 
